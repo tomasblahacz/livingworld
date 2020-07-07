@@ -16,7 +16,6 @@ $loader = new YamlFileLoader($container, new FileLocator(__DIR__.'/config'));
 $loader->load('config.yaml');
 
 $application = new Application();
-$container->addCompilerPass(new LifeCycleProcessorCompilerPass());
 $container->compile();
 
 foreach ($container->findTaggedServiceIds('console.command') as $commandName => $commandDefinition) {

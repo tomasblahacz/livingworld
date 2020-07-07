@@ -1,7 +1,7 @@
 {
   "name": "tuscanicz/livingworld",
   "type": "library",
-  "description": "A sample PHP implementation of Conway's game of life.",
+  "description": "A sample PHP skeleton for implementation of Conway's game of life.",
   "keywords": ["php", "game", "life"],
   "homepage": "https://github.com/tuscanicz/livingworld",
   "license": "MIT",

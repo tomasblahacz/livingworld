@@ -4,10 +4,6 @@ services:
         autoconfigure: true
         public: true
 
-    LivingWorld\Import\ImportCommand:
-        tags:
-          - 'console.command'
-
-    LivingWorld\Generate\GenerateWorldCommand:
+    LivingWorld\DummyCommand:
         tags:
           - 'console.command'
